@@ -110,7 +110,7 @@ var app = {
             app.clear();
             app.display(data);
         });
-        bluetoothSerial.write("zzzzzzzzz", function(data){
+        bluetoothSerial.write("z", function(data){
             app.display("Bluetooth sent some data");
         }, function(){
             app.display("sorry couldn't send so...");
